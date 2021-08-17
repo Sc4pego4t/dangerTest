@@ -9,6 +9,8 @@ def check_for_new_files_in_important_directories
   }
   
   new_important_files = []
+  added_files_local = git.added_files.map { |file| "./" + file }
+
   git.added_files.each { |added_file|
     passed_path = "."
     puts("start #{added_file}")
@@ -17,8 +19,14 @@ def check_for_new_files_in_important_directories
         files = Dir.entries(passed_path).map { |path| passed_path + "/" + path }.reject { |path| path == added_file_local_path }
         puts("#{files}")
         passed_path += "/#{part}"
-        if !dirs_to_enter[index]&.include?(passed_path)
+        if !dirs_to_check[index]&.include?(passed_path)
+          if File.directory?(passed_path)
+            all_files_in_directory = Dir.glob(passed_path+"**/*").reject {|fn| File.directory?(fn) }
+            is_subset = (all_files_in_directory - added_files_local).empty?
+            new_important_files << added_file if is_subset
+          end
           new_important_files << added_file unless files.any? { |file| file.include?(passed_path) }
+          break
         end
     }
   }
