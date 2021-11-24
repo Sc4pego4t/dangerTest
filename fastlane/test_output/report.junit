@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='FeatureToggles-Unit-Tests.xctest' tests='2' failures='0'>
+  <testsuite name='FeatureToggles_Unit_Tests.FeatureRegistriesTests' tests='2' failures='0'>
+    <testcase classname='FeatureToggles_Unit_Tests.FeatureRegistriesTests' name='test_featureRegistries_cacheDoesNotResetAfterSecondLogin' time='0.010'/>
+    <testcase classname='FeatureToggles_Unit_Tests.FeatureRegistriesTests' name='test_featureRegistries_cacheResetsAfterLoginWithAnotherUser' time='0.003'/>
+  </testsuite>
+</testsuites>
