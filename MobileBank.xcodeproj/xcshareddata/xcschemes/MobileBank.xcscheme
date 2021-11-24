@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "9999"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EAA44461DC5F07762E4A910E"
+               BuildableName = "MobileBank.app"
+               BlueprintName = "MobileBank"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F767321EF00464D5BE68B46"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "41FEB443F55CD4EFC4E48ABE"
+               BuildableName = "UnitTests.xctest"
+               BlueprintName = "UnitTests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E99D40C0D8944302B7BAE741"
+               BuildableName = "KifTests.xctest"
+               BlueprintName = "KifTests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "90236E66475A1D3F7EB5DC5446271788"
+               BuildableName = "MobileBankCore-Unit-Tests.xctest"
+               BlueprintName = "MobileBankCore-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D49672CFF4F650084B3FA83BB8F91B1C"
+               BuildableName = "ContactsKit-Unit-Tests.xctest"
+               BlueprintName = "ContactsKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FD0FA41001D2BE55E57EE4595F424B3"
+               BuildableName = "MobileBankUtils-Unit-Tests.xctest"
+               BlueprintName = "MobileBankUtils-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF3BC167CC04F28E792155B69F7E18D6"
+               BuildableName = "MobileBankPlatform-Unit-Tests.xctest"
+               BlueprintName = "MobileBankPlatform-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F69A20EF36A5A853FCEFF7122FC2A5DC"
+               BuildableName = "Chat-Unit-Tests.xctest"
+               BlueprintName = "Chat-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D8EC1F7F72DA9D0235DA18149A459A47"
+               BuildableName = "InvestmentCore-Unit-Tests.xctest"
+               BlueprintName = "InvestmentCore-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF3278AC327184B98DC6B01110E2C7CF"
+               BuildableName = "InvestmentUI-Unit-Tests.xctest"
+               BlueprintName = "InvestmentUI-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5349C17DDAC207CA69094385ED7F2164"
+               BuildableName = "Travel-Unit-Tests.xctest"
+               BlueprintName = "Travel-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FEE3A1D15661CA4F5D2E1B3D"
+               BuildableName = "MonoAppsFramework.framework"
+               BlueprintName = "MonoAppsFramework"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA7FA575F7856EFB131E18AEF859CF6C"
+               BuildableName = "BusinessPayments-Unit-Tests.xctest"
+               BlueprintName = "BusinessPayments-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      shouldUseLaunchSchemeArgsEnv = "NO"
+      disableMainThreadChecker = "YES"
+      systemAttachmentLifetime = "keepNever">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EAA44461DC5F07762E4A910E"
+            BuildableName = "MobileBank.app"
+            BlueprintName = "MobileBank"
+            ReferencedContainer = "container:MobileBank.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "isRequestProxyEnabled"
+            value = "${isRequestProxyEnabled}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "isUITestMockDebug"
+            value = "${isUITestMockDebug}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "isPerformanceRequestCountingTest"
+            value = "${isPerformanceRequestCountingTest}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "isSnapshotRecordMode"
+            value = "${isSnapshotRecordMode}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "FB_REFERENCE_IMAGE_DIR"
+            value = "$(SOURCE_ROOT)/UITests/ReferenceImages"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IMAGE_DIFF_DIR"
+            value = "$(SOURCE_ROOT)/UITests/FailureDiffs"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SOURCE_ROOT"
+            value = "$(SOURCE_ROOT)"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "isEnableAnimations"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "isUnitTesting"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:TestPlans/MobileBank.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/SmokeUITests.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/UnitTests.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/FeatureTeam.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/UITests.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/PerfomanceTests.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlans/PaymentsSmokeUITests.xctestplan">
+         </TestPlanReference>
+      </TestPlans>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "90236E66475A1D3F7EB5DC5446271788"
+               BuildableName = "MobileBankCore-Unit-Tests.xctest"
+               BlueprintName = "MobileBankCore-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D49672CFF4F650084B3FA83BB8F91B1C"
+               BuildableName = "ContactsKit-Unit-Tests.xctest"
+               BlueprintName = "ContactsKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "736C8C222123EB1A91988824931B0791"
+               BuildableName = "MobileBankTinkoffSecure-Unit-Tests.xctest"
+               BlueprintName = "MobileBankTinkoffSecure-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FD0FA41001D2BE55E57EE4595F424B3"
+               BuildableName = "MobileBankUtils-Unit-Tests.xctest"
+               BlueprintName = "MobileBankUtils-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DF3BC167CC04F28E792155B69F7E18D6"
+               BuildableName = "MobileBankPlatform-Unit-Tests.xctest"
+               BlueprintName = "MobileBankPlatform-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F767321EF00464D5BE68B46"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "41FEB443F55CD4EFC4E48ABE"
+               BuildableName = "UnitTests.xctest"
+               BlueprintName = "UnitTests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E99D40C0D8944302B7BAE741"
+               BuildableName = "KifTests.xctest"
+               BlueprintName = "KifTests"
+               ReferencedContainer = "container:MobileBank.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B068E9D139C22DFBA20FE37F0A60B39"
+               BuildableName = "Payments-Unit-Tests.xctest"
+               BlueprintName = "Payments-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "TransferPhoneHeaderProviderTest/testTinkoffPointerErrorNoCurrencyClient()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E87506A80F1EDBA24327EF4CC12D2E5"
+               BuildableName = "Payments-Unit-SnapshotTests.xctest"
+               BlueprintName = "Payments-Unit-SnapshotTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E090AD94CBF1B931BEE48C1A355F3586"
+               BuildableName = "OperationsDispute-Unit-Tests.xctest"
+               BlueprintName = "OperationsDispute-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "86CC8C065E09AAAA75246507CE5024CB"
+               BuildableName = "MobileBankUI-Unit-Tests.xctest"
+               BlueprintName = "MobileBankUI-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4065AB744B9B56723DAFFE8B489A2965"
+               BuildableName = "Applications-Unit-Tests.xctest"
+               BlueprintName = "Applications-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "10A17738E2A83A4037A414CF81514DDD"
+               BuildableName = "ApplicationsKit-Unit-Tests.xctest"
+               BlueprintName = "ApplicationsKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4C05F99BF64D227951CFABFA50762E96"
+               BuildableName = "SmartFields-Unit-Tests.xctest"
+               BlueprintName = "SmartFields-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D32D18C8BC41BE3111224975F1EF983"
+               BuildableName = "Search-Unit-Tests.xctest"
+               BlueprintName = "Search-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "68E8CFECF3D5BD46D3D234A198020CEE"
+               BuildableName = "SelfService-Unit-Tests.xctest"
+               BlueprintName = "SelfService-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE55216B5883C0799963610980E5AFB9"
+               BuildableName = "Account-Unit-Tests.xctest"
+               BlueprintName = "Account-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF5DE80BAF9671E822E4A318AD5FAFAF"
+               BuildableName = "BusinessOrigination-Unit-Tests.xctest"
+               BlueprintName = "BusinessOrigination-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2B22DF87040598CC79C473EED48E1AE6"
+               BuildableName = "Insurance-Unit-Tests.xctest"
+               BlueprintName = "Insurance-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73CD10EA5E87DA997B7739D55451EFAE"
+               BuildableName = "MobileBankPushNotifications-Unit-Tests.xctest"
+               BlueprintName = "MobileBankPushNotifications-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0E363E96C6C76AFB076D6465832FBAB9"
+               BuildableName = "Auth-Unit-Tests.xctest"
+               BlueprintName = "Auth-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "30E9B210145E685239A9E032E8DFFA5D"
+               BuildableName = "JuniorIntegration-Unit-Tests.xctest"
+               BlueprintName = "JuniorIntegration-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CC55C05EE1902ED79FF0FF1AE62EC456"
+               BuildableName = "ApplicationRoot-Unit-Tests.xctest"
+               BlueprintName = "ApplicationRoot-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6920BF05CF932FC1972EDB5149AD4AB1"
+               BuildableName = "MobileBankWhoCalls-Unit-Tests.xctest"
+               BlueprintName = "MobileBankWhoCalls-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC5DCDA830821A8096789DFA2CEF9B7C"
+               BuildableName = "Kids-Unit-Tests.xctest"
+               BlueprintName = "Kids-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "JuniorKidTaskDetailsSnapshotTests/testActiveDoneTask()">
+               </Test>
+               <Test
+                  Identifier = "JuniorKidTaskDetailsSnapshotTests/testActiveDoneTask_photoApprove()">
+               </Test>
+               <Test
+                  Identifier = "JuniorKidTaskDetailsSnapshotTests/testExpiredTask()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F8A503A92E7A548EAF0FB142AE9BD890"
+               BuildableName = "AppsInAppIntegration-Unit-Tests.xctest"
+               BlueprintName = "AppsInAppIntegration-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F69A20EF36A5A853FCEFF7122FC2A5DC"
+               BuildableName = "Chat-Unit-Tests.xctest"
+               BlueprintName = "Chat-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D8EC1F7F72DA9D0235DA18149A459A47"
+               BuildableName = "InvestmentCore-Unit-Tests.xctest"
+               BlueprintName = "InvestmentCore-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF3278AC327184B98DC6B01110E2C7CF"
+               BuildableName = "InvestmentUI-Unit-Tests.xctest"
+               BlueprintName = "InvestmentUI-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5349C17DDAC207CA69094385ED7F2164"
+               BuildableName = "Travel-Unit-Tests.xctest"
+               BlueprintName = "Travel-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F5C73C24D541090F6105C7399DBD1546"
+               BuildableName = "BringFriend-Unit-Tests.xctest"
+               BlueprintName = "BringFriend-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D52B28605182CA0225B32A76C0480526"
+               BuildableName = "ConfirmationKit-Unit-Tests.xctest"
+               BlueprintName = "ConfirmationKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "66C96A353074D7E85D6B748A4FBBC600"
+               BuildableName = "Lifestyle-Unit-Tests.xctest"
+               BlueprintName = "Lifestyle-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C0C9F51D5F49F21A5DEB135233E570BA"
+               BuildableName = "Lifestyle-Unit-KifTests.xctest"
+               BlueprintName = "Lifestyle-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "66C96A353074D7E85D6B748A4FBBC300"
+               BuildableName = "Platform-Unit-Tests.xctest"
+               BlueprintName = "Platform-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C694FBC45F802A279641AD1F720A8D97"
+               BuildableName = "Loyalty-Unit-Tests.xctest"
+               BlueprintName = "Loyalty-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E1172F5C587AF7B008C751482D8FFFC1"
+               BuildableName = "Profile-Unit-Tests.xctest"
+               BlueprintName = "Profile-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8F2A00671634F74C977A2C171AFE5BBB"
+               BuildableName = "MobileBankVoIP-Unit-Tests.xctest"
+               BlueprintName = "MobileBankVoIP-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6BB768ABEBE1A0C0C502C1D0CF3C40D0"
+               BuildableName = "MarketingCommunications-Unit-Tests.xctest"
+               BlueprintName = "MarketingCommunications-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6BB768ABEBE1A0C0C502C1D0CF3C40D0"
+               BuildableName = "MarketingCommunications-Unit-Tests.xctest"
+               BlueprintName = "MarketingCommunications-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D332F32570096728CBF4AFF9FEDC2F3"
+               BuildableName = "MobileBankPerformance-Unit-Tests.xctest"
+               BlueprintName = "MobileBankPerformance-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C2BF3F938DC60C1FC280AE19EBD6AD3E"
+               BuildableName = "Social-Unit-Tests.xctest"
+               BlueprintName = "Social-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E6ADF4EC681A7208FC8902E7A358D19"
+               BuildableName = "SuspiciousOperations-Unit-Tests.xctest"
+               BlueprintName = "SuspiciousOperations-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A34AD8CF35F9F3E0532FAC0797B2C1B0"
+               BuildableName = "FailureNotifications-Unit-Tests.xctest"
+               BlueprintName = "FailureNotifications-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9D74102838FE23F301E22299B3E8DBDA"
+               BuildableName = "TPrivate-Unit-Tests.xctest"
+               BlueprintName = "TPrivate-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "31B4656EBBB2F00F3BFAB9946DF9809B"
+               BuildableName = "MobileBankNetwork-Unit-Tests.xctest"
+               BlueprintName = "MobileBankNetwork-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "468D1022E1D23A607AEED1A50B3DC517"
+               BuildableName = "Account-Unit-KifTests.xctest"
+               BlueprintName = "Account-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7CBEF9816E571A5B3A3F39EA82EB5427"
+               BuildableName = "Account-Unit-IntegrationKifTests.xctest"
+               BlueprintName = "Account-Unit-IntegrationKifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4C1FEE3605F9A0CF32D99E5CA8A1590"
+               BuildableName = "Operations-Unit-Tests.xctest"
+               BlueprintName = "Operations-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5F99285FAF23601A8B0872F08F26BFFD"
+               BuildableName = "LifestyleKit-Unit-Tests.xctest"
+               BlueprintName = "LifestyleKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DEE05F5A780BDE5F9997FE9EFD276098"
+               BuildableName = "OrdersKit-Unit-Tests.xctest"
+               BlueprintName = "OrdersKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7784EFC7DA5529BD91E5FCA582FA08D5"
+               BuildableName = "Applications-Unit-KifTests.xctest"
+               BlueprintName = "Applications-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43FD267B536199181ED29FA7754CD081"
+               BuildableName = "Payments-Unit-KifTests.xctest"
+               BlueprintName = "Payments-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E068ADF4DC03B997A120B6E04862D6D6"
+               BuildableName = "Restaurants-Unit-Tests.xctest"
+               BlueprintName = "Restaurants-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4E3CF123D275D1B43AD97D1D28C48077"
+               BuildableName = "PersonalFeedSource-Unit-Tests.xctest"
+               BlueprintName = "PersonalFeedSource-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DA38282EDBB6F3112196AE6E04DACC7C"
+               BuildableName = "TPrivate-Unit-KifTests.xctest"
+               BlueprintName = "TPrivate-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "815E105FAEB37B3E4EF07FC10BCB5778"
+               BuildableName = "PremiumServices-Unit-Tests.xctest"
+               BlueprintName = "PremiumServices-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE86B9FAA3CCA619C6A799FE7CB54681"
+               BuildableName = "PremiumServices-Unit-KifTests.xctest"
+               BlueprintName = "PremiumServices-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AA3BD59E01F71BCD662E2615075622BE"
+               BuildableName = "PersonalFeedSource-Unit-KifTests.xctest"
+               BlueprintName = "PersonalFeedSource-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF1B99981558D69420BBAE52263D2D86"
+               BuildableName = "ConfigKit-Unit-Tests.xctest"
+               BlueprintName = "ConfigKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CFE13F260A6AC8CB3EC47BE26B3A4395"
+               BuildableName = "AccountWidgetKit-Unit-Tests.xctest"
+               BlueprintName = "AccountWidgetKit-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4AD328FC3D3CFEA7467D4A693D57EC1B"
+               BuildableName = "Profile-Unit-KifTests.xctest"
+               BlueprintName = "Profile-Unit-KifTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA305F0F3C3B06EEA9B37C5D5297B4A5"
+               BuildableName = "ImageProcessing-Unit-Tests.xctest"
+               BlueprintName = "ImageProcessing-Unit-Tests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = "ru"
+      region = "RU"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EAA44461DC5F07762E4A910E"
+            BuildableName = "MobileBank.app"
+            BlueprintName = "MobileBank"
+            ReferencedContainer = "container:MobileBank.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Debug-Optimized"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EAA44461DC5F07762E4A910E"
+            BuildableName = "MobileBank.app"
+            BlueprintName = "MobileBank"
+            ReferencedContainer = "container:MobileBank.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release-QA-Enterprise"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
