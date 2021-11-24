@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: opt_out_usage" time="0.000713">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.00021">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: setup_ci" time="0.000202">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: is_ci" time="0.000105">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: tcs_xcode_select" time="0.000155">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: slather" time="260.190102">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: build_log_tail" time="0.043594">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+# frozen_string_literal: true
+
+# This will stop uploading the information which actions were run
+opt_out_usage
+
+if ENV['DEBUG'] # import fastfiles from local paths
+  puts 'Fastfile is running in debug mode.'
+
+  # Example glob: export DEBUG_FASTFILES_PATH_GLOB=%fastlane_proj_path%/fastlane/*
+  fastfiles_glob = ENV['DEBUG_FASTFILES_PATH_GLOB']
+  unless fastfiles_glob
+    raise 'Fastfiles for import not specified (DEBUG_FASTFILES_PATH_GLOB not set)!'
+  end
+
+  Dir.glob(fastfiles_glob).each { |fastfile| import fastfile if File.file?(fastfile) }
+else # import fastfiles from remote git repo
+  # You can change branch to import files from by simply defining FL_IMPORT_FROM_GIT_BRANCH env var
+
+  branch = ENV['FL_IMPORT_FROM_GIT_BRANCH'] || 'feature/coverage_enabled'
+
+  import_from_git(
+    url: 'ssh://git@gitlab.tcsbank.ru:7999/mobile-bank-ios/mobile-bank-fastlane.git',
+    branch: branch,
+    dependencies: [
+      'fastlane/BadgeFastfile',
+      'fastlane/CodeQualityFastfile',
+      'fastlane/ConfigFastfile',
+      'fastlane/DeployFastfile',
+      'fastlane/DeployJuniorFastfile',
+      'fastlane/DiagnosticsFastfile',
+      'fastlane/JIRAFastfile',
+      'fastlane/MatchFastfile',
+      'fastlane/ModuleFastfile',
+      'fastlane/TestsFastfile',
+      'fastlane/UITestsFastfile',
+      'fastlane/ChangeSigningFastfile',
+      'fastlane/LocalizationFastfile'
+    ]
+  )
+end

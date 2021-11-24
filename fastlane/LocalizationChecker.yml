@@ -1,0 +1,48 @@
+paths:
+  - LocalPods/Feature/Platform/DebugMenu/DebugMenu/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Common/ConfirmationKit/ConfirmationKit/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Common/MobileBankCore/MobileBankCore/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Common/MobileBankPlatform/MobileBankPlatform/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Common/MobileBankUI/MobileBankUI/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Common/MobileBankUtils/MobileBankUtils/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Common/SmartFields/SmartFields/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Platform/Auth/Auth/Auth/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Travel/Travel/Travel/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/PaymentRisks/OperationsDispute/OperationsDispute/OperationsDispute/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/PaymentRisks/WhoCalls/MobileBankWhoCalls/MobileBankWhoCalls/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Account/Account/Account/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Search/Search/Search/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Junior/Kids/Kids/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/SelfService/SelfService/SelfService/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Insurance/Insurance/Insurance/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Operations/OperationsKit/OperationsKit/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Payments/Payments/Payments/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Lifestyle/Lifestyle/Lifestyle/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Lifestyle/SchemesKit/SchemesKit/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/BringFriend/BringFriend/BringFriend/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Junior/JuniorIntegration/JuniorIntegration/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Target/Loyalty/Loyalty/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/TPrivate/TPrivate/TPrivate/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Platform/Chat/Chat/Chat/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Business/BusinessOrigination/BusinessOrigination/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Investment/InvestmentUI/InvestmentUI/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Platform/Platform/Platform/Platform/Resources/Strings/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Finance/Finance/Finance/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Unowned/PremiumServices/PremiumServices/PremiumServices/Resources/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/ContactlessPayment/ContactlessPayment/ContactlessPayment/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Tbundle/TBundle/TBundle/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Tbundle/TBundle/TBundle/Localization/en.lproj/Localizable.strings
+
+# TODO: 5.x o.pavlichenkov раскомментить после того, как решится вопрос с одинаковыми ключами в Applications и ApplicationsKit
+#  - LocalPods/Feature/Applications/ApplicationsKit/ApplicationsKit/Localization/ru.lproj/Localizable.strings
+  - LocalPods/Feature/Applications/Applications/Applications/Localization/ru.lproj/Localizable.strings
+
+excluded_paths:
+  - Pods/
+  - LocalPods/Feature/Travel/Travel/
+  - LocalPods/Feature/Payments/PaymentsApp
+  - LocalPods/Feature/Platform/PlatformApp
+  - LocalPods/Feature/Tprivate/TPrivateApp
+  - LocalPods/Feature/Applications/ApplicationsApp
+  - LocalPods/Feature/MarketingCommunications/MarketingCommunicationsApp
+  - LocalPods/Feature/ContactlessPayment/ContactlessPaymentApp

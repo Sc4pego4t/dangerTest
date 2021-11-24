@@ -1,0 +1,24 @@
+{
+	"targetMap": [
+		{
+			"featureTeam": "travel",
+			"targets": ["Travel"],
+			"affectedCodePath": [
+				"LocalPods/Feature/Travel/Travel"
+			]
+		},
+		{
+			"featureTeam": "applications",
+			"targets": ["ApplicationsKit"],
+			"affectedCodePath": [
+				"LocalPods/Feature/Applications/ApplicationsKit"
+			]
+		}
+	],
+	"rootAffectedPaths": [
+        "LocalPods/",
+        "UITests/",
+        "UnitTests/"
+    ],
+	"defaultTargets": ["UnitTests", "KifTests"] 
+}
