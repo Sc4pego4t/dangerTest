@@ -1,0 +1,72 @@
+
+# При переводе ассетов модуля на R.swift нужно убрать путь к модулю из not_rswift_paths и добавить в excluded_paths путь до сгенерированного файла
+excluded_paths:
+  # Common
+  - fastlane
+  - Scripts
+  - xcodegen
+  - Pods
+  - doc
+  - DerivedData
+  - LocalPods/Common/ConfirmationKit/ConfirmationKit
+  - LocalPods/Common/MobileBankStubs
+  # Generated
+  - LocalPods/Common/MobileBankUtils/MobileBankUtils/Classes/Generated
+  - LocalPods/Common/ConfirmationKit/ConfirmationKit/Classes/Generated
+  - LocalPods/Common/MobileBankPlatform/MobileBankPlatform/Classes/Generated
+  - LocalPods/Common/MobileBankUI/MobileBankUI/Classes/Generated
+  - LocalPods/Common/MobileBankCore/MobileBankCore/Classes/Generated
+  - LocalPods/Common/MobileBankIO/MobileBankIO/Classes/Generated
+  - LocalPods/Common/SmartFields/SmartFields/Classes/Generated
+  - LocalPods/Feature/Lifestyle/Lifestyle/Lifestyle/Classes/Generated
+  - LocalPods/Feature/Lifestyle/SchemesKit/SchemesKit/Classes/Generated
+  - LocalPods/Feature/Business/BusinessOrigination/Classes/Generated
+  - LocalPods/Feature/BringFriend/BringFriend/BringFriend/Classes/Generated
+  - LocalPods/Feature/MarketingCommunications/MarketingCommunications/MarketingCommunications/Classes/Generated
+  - LocalPods/Feature/Account/Account/Account/Classes/Generated
+  - LocalPods/Feature/Profile/Profile/Profile/Classes/Generated
+  - LocalPods/Feature/Profile/Documents/Documents/Classes/Generated
+  - LocalPods/Feature/Profile/Documents/Documents/Classes/Core/SharedModels # Временно
+  - LocalPods/Feature/Travel/Travel/Travel/Classes/Generated
+  - LocalPods/Feature/SelfService/SelfService/SelfService/Classes/Generated
+  - LocalPods/Feature/Target/Loyalty/Loyalty/Classes/Generated
+  - LocalPods/Feature/Platform/Platform/Platform/Platform/Classes/Generated
+  - LocalPods/Feature/Platform/Chat/Chat/Chat/Classes/Generated
+  - LocalPods/Feature/PaymentRisks/OperationsDispute/OperationsDispute/OperationsDispute/Classes/Generated
+  - LocalPods/Feature/PaymentRisks/TinkoffSecure/MobileBankTinkoffSecure/MobileBankTinkoffSecure/Classes/Generated
+  - LocalPods/Feature/PaymentRisks/SuspiciousOperations/SuspiciousOperations/SuspiciousOperations/Classes/Generated
+  - LocalPods/Feature/PaymentRisks/WhoCalls/MobileBankWhoCalls/MobileBankWhoCalls/Classes/Generated
+  - LocalPods/Feature/Insurance/Insurance/Insurance/Classes/Generated
+  - LocalPods/Feature/Operations/Operations/Operations/Classes/Generated
+  - LocalPods/Feature/Operations/OperationsKit/OperationsKit/Classes/Generated
+  - LocalPods/Feature/Applications/Applications/Applications/Classes/Generated
+  - LocalPods/Feature/TPrivate/TPrivate/TPrivate/Classes/Generated
+  - LocalPods/Feature/PersonalFeed/PersonalFeedSource/PersonalFeedSource/Classes/Generated/
+  - LocalPods/Feature/Search/Search/Search/Classes/Generated
+  - LocalPods/Feature/Finance/Finance/Finance/Classes/Generated
+  - LocalPods/Feature/Unowned/PremiumServices/PremiumServices/PremiumServices/Classes/Generated
+  - LocalPods/Feature/Stories/Stories/Stories/Classes/Generated
+  - LocalPods/Feature/Tbundle/TbundleUIKit/TbundleUIKit/Classes/Generated
+
+  # Mono apps
+  - LocalPods/Feature/Target/LoyaltyApp
+  - LocalPods/Feature/Platform/PlatformApp
+  - LocalPods/Feature/Account/AccountApp
+  - LocalPods/Feature/Platform/PlatformMonoApp
+  - LocalPods/Feature/PersonalFeed/PersonalFeed
+  # TODO
+  - LocalPods/Common/MobileBankUI/MobileBankUI/Classes/Services/ImageResolver
+
+# Исключённые названия ассетов
+excluded_assets:
+  [launch_timeline, launch_pay_by_phone, launch_templates, launch_c2c]
+
+not_rswift_paths:
+  # App
+- MobileBank
+  # Feature
+- LocalPods/Feature/AppsInAppIntegration
+- LocalPods/Feature/Business/BusinessAdapter
+- LocalPods/Feature/Investment
+- LocalPods/Feature/Social
+
